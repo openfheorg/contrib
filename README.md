@@ -1,0 +1,17 @@
+# Purpose and Disclaimer
+The 'contrib' repository is intended to host community-contributed projects that either provide examples of using OpenFHE or extend OpenFHE.
+These projects may be useful to OpenFHE users but are not considered part of the core OpenFHE project functionality. 
+Contributions within this repository are not officially supported by the project maintainers and may not be actively maintained or rigorously tested. 
+Users are responsible for evaluating the quality and compatibility of any code they choose to utilize from the contrib directory and should not expect bug fixes or updates unless explicitly stated by the contributor.
+
+# Summary of the commutity projects in the contrib repository
+
+To be added...
+
+# Guidelines for adding a new project
+Please review existing contributions and use one of them as a template.
+1. Create a user CMake project follwing the [Building User Applications](https://openfhe-development.readthedocs.io/en/latest/sphinx_rsts/intro/building_user_applications.html) article.
+2. Add a license (BSD-2 license is recommended).
+3. Add a README.md file to the root of the project. Specify the versions of OpenFHE under which your project has been tested.
+4. Email contact@openfhe.org to have your github account added to the contrib reposlitory.
+5. Submit a PR with the contribution.
