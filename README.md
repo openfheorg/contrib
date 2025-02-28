@@ -1,5 +1,5 @@
 # Purpose and Disclaimer
-The 'contrib' repository is intended to host community-contributed projects that either provide examples of using OpenFHE or extend OpenFHE.
+The `contrib` repository is intended to host community-contributed projects that either provide examples of using OpenFHE or extend OpenFHE.
 These projects may be useful to OpenFHE users but are not considered part of the core OpenFHE project functionality. 
 Contributions within this repository are not officially supported by the project maintainers and may not be actively maintained or rigorously tested. 
 Users are responsible for evaluating the quality and compatibility of any code they choose to utilize from the contrib repository and should not expect bug fixes or updates unless explicitly stated by the contributor.
