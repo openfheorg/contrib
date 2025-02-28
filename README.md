@@ -10,7 +10,7 @@ To be added...
 
 # Guidelines for adding a new project
 Please review existing contributions and use one of them as a template.
-1. Create a user CMake project follwing the [Building User Applications](https://openfhe-development.readthedocs.io/en/latest/sphinx_rsts/intro/building_user_applications.html) article.
+1. Create a user CMake project following the [Building User Applications](https://openfhe-development.readthedocs.io/en/latest/sphinx_rsts/intro/building_user_applications.html) article.
 2. Follow the standard folder naming convention, e.g., `src`, `include`, `lib`, `examples`, `tests`.
 3. Add a license (BSD-2 license is recommended).
 4. Add a README.md file to the root of the project. Specify the versions of OpenFHE under which your project has been tested.
