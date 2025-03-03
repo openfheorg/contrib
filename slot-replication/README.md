@@ -4,10 +4,10 @@ This module implements a mechanism to replicate slots across ciphertexts.
 It roughly implements the recursive method from https://ia.cr/2014/106 section 4.2, but using depth-first traversal of the recursion tree so it never needs to maintain all the leaves at memory at the same time.
 The implementation is optimized to use the "hoisting" method from https://ia.cr/2018/244, section 5, in nodes of the tree with degree more than two (as mentioned in https://ia.cr/2020/563, method 3 on page 26).
 
-This implementation is geared towards sequential use of the output ciphertexts, the main interface is a `next_replica()` method that returns the next output ciphertext.
+This implementation is geared towards sequential use of the output ciphertexts, the main interfaces are `init(ct)` and `next_replica()` methods that returns the first/next output ciphertext.
 
 The basic use-case is taking a packed ciphertext as input, outputting a vector of ciphertexts with all the slots of the i'th output equal to the i'th slot of the input.
-More generally, the input ciphertext may already be partially replicated, with the same length-x pattern repeated number of tie to fill all the slots.
+More generally, the input ciphertext may already be partially replicated, with the same length-x pattern repeated enough times to fill all the slots.
 In that case the output will be a vector of x ciphertexts, with all the slots of the i'th output equal to the i'th slot in the input.
 
 ## Content
@@ -32,7 +32,7 @@ If openfhe is installed in the default directories, then you can run the example
    ./replication  # This is a long example, expect it to run for 15-20 minutes
 ```
 
-See the code in the file `examples/replication.cpp` for usage example, the basic flow is this:
+See the code in the file `examples/replication.cpp` for usage examples, the basic flow is this:
 ```
     std::vector<int> tree_shape = {8,2,2,2,2}; // degree-8 root, degree-2 below
 
@@ -47,7 +47,7 @@ See the code in the file `examples/replication.cpp` for usage example, the basic
 
     // ... encrypt a packed ciphertext ct ...
 
-    // The replication itself: the i'th ci_i is a packed Ciphertext<DCRTPoly>
+    // The replication itself: the i'th ct_i is a packed Ciphertext<DCRTPoly>
     // with all the slots equal to the i'th slot of ct
     for (auto ct_i = replicator.init(ct); ct_i != nullptr;
                                         ct_i = replicator.next_replica())
