@@ -17,7 +17,7 @@ All contributed projects are listed below. Please check out the project folder f
 
 | Project          | Description          | Scheme(s)| Language(s)| Author(s)          |
 | :--------------- |:---------------------|:----------|:---------:|:-------------------|
-| Slot replication | To be added          | CKKS      | C++       | Shai Halevi (AWS)  |
+| [Slot replication](slot-replication) | The basic use-case is taking a packed ciphertext as input, outputting a vector of ciphertexts with all the slots of the $i^{th}$ output equal to the $i^{th}$ slot of the input. More advanced use cases are also supported. | CKKS      | C++       | Shai Halevi (AWS)  |
 
 
 # User Projects in Other OpenFHE Repositories
