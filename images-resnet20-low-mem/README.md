@@ -85,7 +85,11 @@ Then build it using
 cmake --build "build" --target
 ```
 
-### 2) Execute the project
+### 2) Extract the weights of the network
+
+Extract the contents of the file `weights.zip` to the folder `weights`
+
+### 3) Execute the project
 
 After building, go to the created `build` folder:
 
@@ -97,7 +101,7 @@ and run it with the following command:
 ./LowMemoryFHEResNet20
 ```
 
-### 3) Custom arguments
+### 4) Custom arguments
 
 - `generate_keys`, type `int`, a value in `[1, 2, 3, 4]`
 - `load_keys`, type: `int` a value in `[1, 2, 3, 4]`
@@ -149,18 +153,18 @@ output = [-2.633, -1.091,  6.063, -4.093, -0.5967, 7.252, -2.156, -1.085, -0.911
 ```
 In this case, the maximum value is at position 5. Just translate it using the following dictionary (from ResNet20 pretrained on CIFAR-10):
 
-| Index of max 	| Class      	|
-|--------------	|------------	|
-| 0            	| Airplane   	|
-| 1            	| Automobile 	|
-| 2            	| Bird       	|
-| 3            	| Cat        	|
-| 4            	| Deer       	|
-| 5            	| Dog        	|
-| 6            	| Frog       	|
-| 7            	| Horse      	|
-| 8            	| Ship       	|
-| 9            	| Truck      	|
+| Index of max    | Class        |
+|--------------   |------------  |
+| 0               | Airplane     |
+| 1               | Automobile   |
+| 2               | Bird         |
+| 3               | Cat          |
+| 4               | Deer         |
+| 5               | Dog          |
+| 6               | Frog         |
+| 7               | Horse        |
+| 8               | Ship         |
+| 9               | Truck        |
 
 In the sample output, the input image was my dog Vale:
 
