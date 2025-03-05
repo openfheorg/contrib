@@ -18,7 +18,7 @@ All contributed projects are listed below. Please check out the project folder f
 | Project          | Description          | Scheme(s)| Language(s)| Author(s)          |
 | :--------------- |:---------------------|:----------|:---------:|:-------------------|
 | [Slot replication](slot-replication) | The basic use-case is taking a packed ciphertext as input, outputting a vector of ciphertexts with all the slots of the $i^{th}$ output equal to the $i^{th}$ slot of the input. More advanced use cases are also supported. | CKKS      | C++       | Shai Halevi (AWS)  |
-| [Image classifitcation with Resnet20](images-resnet20-low-mem) | Circuit that implements a pre-trained Residual Network that classifies the CIFAR-10 dataset. Given a 3x32x32 image as input, in returns an encrypted classification into one of ten categories, requiring a somewhat small amount of memory (less than 20GB) | CKKS      | C++       | Lorenzo Rovida (University of Milano-Bicocca)  |
+| [Image classification with Resnet20](images-resnet20-low-mem) | Encrypted image classification that implements a pre-trained Residual Network based on the CIFAR-10 dataset. Given a 3x32x32 image as input, it returns an encrypted classification into one of ten categories, requiring a somewhat small amount of memory (less than 20GB) | CKKS      | C++       | Lorenzo Rovida (University of Milano-Bicocca)  |
 
 
 # User Projects in Other OpenFHE Repositories
