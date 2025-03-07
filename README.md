@@ -39,7 +39,7 @@ The user projects that exist in other OpenFHE repositories are listed below.
 
 # Winning Solutions for FHERMA Challenges
 
-Winning solutions for [FHERMA](https://fherma.io/challenges) challenges, most of which are implemented in OpenFHE, are available as part of the [FHE Components Library](https://github.com/fairmath/polycircuit). The FHE components library already includes efficient implementation examples for evaluating image classication, matrix multiplication, logistic function, look-up tables, and maximum element, and for computing parity, ReLu and sign functions.
+Winning solutions for [FHERMA](https://fherma.io/challenges) challenges, most of which are implemented in OpenFHE, are available as part of the [FHE Components Library](https://github.com/fairmath/polycircuit). The FHE components library already includes efficient implementation examples for evaluating image classification, matrix multiplication, logistic function, look-up tables, and maximum element, and for computing parity, ReLu and sign functions.
 
 # Guidelines for Submitting a New Project
 Please review existing contributions and use one of them as a template.
