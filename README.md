@@ -43,9 +43,8 @@ Winning solutions for [FHERMA](https://fherma.io/challenges) challenges, most of
 
 # Guidelines for Submitting a New Project
 Please review existing contributions and use one of them as a template.
-1. Create a user CMake project following the [Building User Applications](https://openfhe-development.readthedocs.io/en/latest/sphinx_rsts/intro/building_user_applications.html) article.
-2. Follow the standard folder naming convention, e.g., `src`, `include`, `lib`, `examples`, `tests`.
+1. (For C++ user projects) Create a user CMake project following the [Building User Applications](https://openfhe-development.readthedocs.io/en/latest/sphinx_rsts/intro/building_user_applications.html) article.
+2. (For C++ user projects) Follow the standard folder naming convention, e.g., `src`, `include`, `lib`, `examples`, `tests`.
 3. Add a license (BSD-2 license is recommended).
 4. Add a README.md file to the root of the project. Specify the versions of OpenFHE under which your project has been tested.
-5. Email contact@openfhe.org to have your github account added to the contrib reposlitory.
-6. Submit a PR with the contribution.
+5. Submit a PR with the contribution.
