@@ -42,9 +42,9 @@ The user projects that exist in other OpenFHE repositories are listed below.
 Winning solutions for [FHERMA](https://fherma.io/challenges) challenges, most of which are implemented in OpenFHE, are available as part of the [FHE Components Library](https://github.com/fairmath/polycircuit). The FHE components library already includes efficient implementation examples for evaluating image classification, matrix multiplication, logistic function, look-up tables, and maximum element, and for computing parity, ReLu and sign functions.
 
 # Guidelines for Submitting a New Project
-Please review existing contributions and use one of them as a template.
-1. (For C++ user projects) Create a user CMake project following the [Building User Applications](https://openfhe-development.readthedocs.io/en/latest/sphinx_rsts/intro/building_user_applications.html) article.
-2. (For C++ user projects) Follow the standard folder naming convention, e.g., `src`, `include`, `lib`, `examples`, `tests`.
+Please review existing contributions and use one of them as a template. The user projects can be written in any programming language supported by OpenFHE, e.g., C++, Python, Rust.
+1. (Only for C++ user projects) Create a user CMake project following the [Building User Applications](https://openfhe-development.readthedocs.io/en/latest/sphinx_rsts/intro/building_user_applications.html) article.
+2. (Only for C++ user projects) Follow the standard folder naming convention, e.g., `src`, `include`, `lib`, `examples`, `tests`.
 3. Add a license (BSD-2 license is recommended).
 4. Add a README.md file to the root of the project. Specify the versions of OpenFHE under which your project has been tested.
 5. Submit a PR with the contribution.
