@@ -3,7 +3,7 @@
 - [Purpose and Disclaimer](#prupose-and-disclaimer)
 - [Community Projects in Contrib Repository](#community-projects-in-Contrib-Repository)
 - [User Projects in Other OpenFHE Repositories](#user-projects-in-other-openfhe-repositories)
-- [Winning Solutions for FHERMA Challenges](winning-solutions-for-fherma-challenges)
+- [Winning Solutions for FHERMA Challenges](#winning-solutions-for-fherma-challenges)
 - [Guidelines for Submitting a New Project](#guidelines-for-submitting-a-new-project)
 
 # Purpose and Disclaimer
