@@ -3,7 +3,7 @@
 - [Purpose and Disclaimer](#prupose-and-disclaimer)
 - [Community Projects in Contrib Repository](#community-projects-in-Contrib-Repository)
 - [User Projects in Other OpenFHE Repositories](#user-projects-in-other-openfhe-repositories)
-- [Winning Solutions for FHERMA Challenges based on OpenFHE](winning-solutions-for-fherma-challenges-based-on-openfhe)
+- [Winning Solutions for FHERMA Challenges](winning-solutions-for-fherma-challenges)
 - [Guidelines for Submitting a New Project](#guidelines-for-submitting-a-new-project)
 
 # Purpose and Disclaimer
@@ -37,9 +37,9 @@ The user projects that exist in other OpenFHE repositories are listed below.
 | [Substring search](https://github.com/openfheorg/openfhe-integer-examples)| Substring search using Rabin-Karp algorithm | BFV     | C++       | David Bruce Cousins (Duality)  |
 | [Support Vector Machine inference](https://github.com/openfheorg/python-svm-examples)| Linear Support Vector Machine inference in Python| CKKS      | Python       | Rener Oliveira  |
 
-# Winning Solutions for FHERMA Challenges based on OpenFHE
+# Winning Solutions for FHERMA Challenges
 
-Winning solutions for [FHERMA](https://fherma.io/challenges) challenges are available as part of the [FHE Components Library](https://github.com/fairmath/polycircuit). The FHE components library already includes efficient implementation examples for evaluating image classication, matrix multiplication, logistic function, look-up tables, and maximum element, and for computing parity, ReLu and sign functions.
+Winning solutions for [FHERMA](https://fherma.io/challenges) challenges, most of which are implemented in OpenFHE, are available as part of the [FHE Components Library](https://github.com/fairmath/polycircuit). The FHE components library already includes efficient implementation examples for evaluating image classication, matrix multiplication, logistic function, look-up tables, and maximum element, and for computing parity, ReLu and sign functions.
 
 # Guidelines for Submitting a New Project
 Please review existing contributions and use one of them as a template.
